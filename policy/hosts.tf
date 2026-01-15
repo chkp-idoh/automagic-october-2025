@@ -13,4 +13,6 @@ resource "checkpoint_management_host" "localhost" {
 resource "checkpoint_management_host" "myip" {
   name         = "myip"
   ipv4_address = var.myip
+  tags = [ "demo1", "demo2" ]
+  color = "orange"
 }
