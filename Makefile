@@ -28,7 +28,7 @@ cpman-api: management-api
 cpman-info: management-info
 cpman-serial: management-serial
 cpman-down: management-down
-cpman-start: management-start management-api
+cpman-start: management-start management-api management-info
 cpman-stop: management-stop
 
 cpman: management-up management-api policy management-info

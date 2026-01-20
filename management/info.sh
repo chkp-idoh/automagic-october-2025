@@ -33,3 +33,9 @@ EOF
 echo "Azure Portal URL:"
 echo "  https://portal.azure.com/#@/resource/subscriptions/$SUBSCRIPTION_ID/resourceGroups/$RG/providers/Microsoft.Compute/virtualMachines/$NAME/overview"
 echo
+echo "To connect via SSH:"
+echo "  make cpman-ssh"
+echo
+echo "SmartConsole access:"
+echo "  https://$CPMAN_IP:443/smartconsole"
+echo
