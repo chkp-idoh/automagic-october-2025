@@ -1,6 +1,6 @@
 
 locals {
-  location       = "israelcentral"
+  location       = "westeurope"
   tenant         = var.tenant
   subscriptionId = var.subscriptionId
   envId          = var.envId
