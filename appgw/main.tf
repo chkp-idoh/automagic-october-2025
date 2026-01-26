@@ -1,5 +1,5 @@
 locals {
-  location       = "northeurope"
+  location       = "westeurope"
   tenant         = var.tenant
   subscriptionId = var.subscriptionId
   envId          = var.envId
